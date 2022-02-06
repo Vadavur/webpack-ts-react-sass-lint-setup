@@ -1,12 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { App } from './App';
 
-const App = () => {
-  let num = 23;
-  return (
-    <h1>Yo!!!!!!???{num}</h1>
-  )
-}
-
-const root = document.getElementById('root'); 
-ReactDOM.render(<App/>, root);
+const root = document.getElementById('root');
+ReactDOM.render(<App />, root);
