@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -44,6 +45,14 @@ module.exports = {
     }),
     new ForkTsCheckerWebpackPlugin(),
     new ReactRefreshWebpackPlugin(),
+    new CopyPlugin({
+      patterns: [
+        {
+          from: 'source',
+          to: 'dest',
+        },
+      ],
+    }),
   ],
 
   devServer: {
