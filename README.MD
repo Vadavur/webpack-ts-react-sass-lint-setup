@@ -8,11 +8,6 @@ This setup contains next dependencies and corresponding plugins:
   - babel/preset-react
   - babel/preset-typescript
   - babel/runtime
-  - pmmmwh/react-refresh-webpack-plugin
-  - types/react
-  - types/react-dom
-  - typescript-eslint/eslint-plugin
-  - typescript-eslint/parser
   - babel-loader
   - copy-webpack-plugin
   - css-loader
@@ -29,14 +24,19 @@ This setup contains next dependencies and corresponding plugins:
   - lint-staged
   - mini-css-extract-plugin
   - node-sass
+  - pmmmwh/react-refresh-webpack-plugin
   - prettier
   - react
   - react-dom
   - react-refresh
   - sass-loader
   - style-loader
+  - types/react
+  - types/react-dom
   - typescipt
   - typescript
+  - typescript-eslint/eslint-plugin
+  - typescript-eslint/parser
   - webpack
   - webpack-cli
   - webpack-dev-server
