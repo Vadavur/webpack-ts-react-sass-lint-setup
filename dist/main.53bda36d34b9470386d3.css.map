@@ -1,0 +1,1 @@
+{"version":3,"file":"main.53bda36d34b9470386d3.css","mappings":";;;AAAA;EACE,UAAU;AACZ;;AAEA;EACE;AACF;;AAEA;EACE,UAAU;EACV,WAAW;AACb,C","sources":["webpack://bee-bot/./src/components/shared/styles.css"],"sourcesContent":["body {\r\n  color: red;\r\n}\r\n\r\nimg {\r\n  width: 100px\r\n}\r\n\r\nbutton {\r\n  width: 100;\r\n  height: 100;\r\n}"],"names":[],"sourceRoot":""}
